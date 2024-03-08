@@ -33,3 +33,8 @@
     border-radius: 5%;
     width: 60%;
 }
+.card:hover{
+    width: 20vw;
+    height: 50vh;
+    transition: 0.1s ;
+}
