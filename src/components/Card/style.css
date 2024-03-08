@@ -1,0 +1,35 @@
+/* div .card{
+    display: flex;
+    flex-direction: column;
+    border: #00008B solid 1px;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px    
+}
+.card img{
+    width: 40%;
+} */
+.card{
+    text-align: center;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    color: #00008B;
+    align-items: center;
+    border: black solid 1px;
+    border-radius: 1vw;
+    width: 15vw;
+    min-width: min-content;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: large;
+}
+.card h1{
+    font-size: 1.5rem;
+}
+.card img{    
+    border-radius: 5%;
+    width: 60%;
+}
